@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Templating in Flask</title>
+  </head>
+  <body>
+    {% for key, value in weather.items() %}
+       <h3>{{key}}: {{value}}</h3>
+    {% endfor %}
+  </body>
+</html>
